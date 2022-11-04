@@ -1,0 +1,99 @@
+:root {
+    --main-color: #005a7a;
+    --text-color: #fcfeff;
+    --sacend-color: #ffe100;
+}
+
+* {
+    margin: 0;
+    font-family: 'Cairo', sans-serif;
+    background-color: var(--main-color);
+    font-family: 'Cairo', sans-serif;
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+.MainRelated {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    /* flex-flow: row; */
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+}
+
+a .otherInfo {
+    display: none;
+    font-size: 9px;
+    width: 261px;
+    position: absolute;
+    top: 27%;
+    /* background-color: #00000054; */
+    margin: 2px;
+    /* padding: 20px; */
+    /* right: 50%; */
+    /* left: 50%; */
+    color: beige;
+    float: right;
+    /* overflow: visible; */
+    align-content: center;
+    align-items: center;
+    text-align: end;
+    /* text-decoration: none; */
+    /* transform: none; */
+    /* text-transform: none; */
+    list-style-type: none;
+    margin-top: -145px;
+    padding-top: -7px;
+    padding-bottom: 0;
+    line-height: 3;
+}
+
+.BlockItem {
+    padding: 20px;
+}
+
+.BlockItem a {
+    display: block;
+}
+
+.BlockItem a :hover {
+    display: block;
+}
+
+.PosterBlockItem {
+    z-index: 999;
+    border-radius: 10%;
+    -webkit-border-radius: 10%;
+    -moz-border-radius: 10%;
+    -ms-border-radius: 10%;
+    -o-border-radius: 10%;
+    background-color: var(--main-color);
+    width: 275px;
+    height: 366px;
+}
+
+.PosterBlockItem img {
+    border-radius: 10%;
+    -webkit-border-radius: 10%;
+    -moz-border-radius: 10%;
+    -ms-border-radius: 10%;
+    -o-border-radius: 10%;
+    margin: 0px;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    transition-delay: 0.1s;
+    transition-timing-function: 0.3s;
+    border: #ffe100 3px solid;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+    box-shadow: #ffe10040 0px 3px 20px 2px;
+}
+
+.PosterBlockItem img:hover {
+    /* filter: blur(1px);
+    -webkit-filter: blur(1px); */
+    border: #00ffbb 3px solid;
+}
