@@ -1,0 +1,2 @@
+--main color(backgrund dsplay-1 full) = #f8eed3
+--sacndey color( text h1) = #060a0b
